@@ -12,3 +12,6 @@ source ~/dotfiles/.vim/netrw.vim
 
 " Commands config
 source ~/dotfiles/.vim/commands.vim
+
+" Backup config
+source ~/dotfiles/.vim/backup.vim

@@ -19,5 +19,5 @@ alias dev1=~/Documents/Shopify/dev1/
 
 # Configuration aliases
 alias themeconfig='vim ~/.oh-my-zsh/custom/themes/powerlevel9k/prompt_powerlevel9k_setup'
-alias zshrc='vim ~/dotfiles/.zsh'
-alias vimrc='vim ~/dotfiles/.vim'
+alias zshrc='cd ~/dotfiles/.zsh && vim ~/dotfiles/.zsh'
+alias vimrc='cd ~/dotfiles/.vim && vim ~/dotfiles/.vim'
