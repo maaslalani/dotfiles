@@ -1,0 +1,4 @@
+# Plugins
+plugins=(
+  git
+)

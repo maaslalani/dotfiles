@@ -1,0 +1,14 @@
+" Custom colour scheme
+source ~/dotfiles/.vim/colors.vim
+
+" Spacing and tabs configuration
+source ~/dotfiles/.vim/spacing.vim
+
+" UI config
+source ~/dotfiles/.vim/config.vim
+
+" Netrw config
+source ~/dotfiles/.vim/netrw.vim
+
+" Commands config
+source ~/dotfiles/.vim/commands.vim
