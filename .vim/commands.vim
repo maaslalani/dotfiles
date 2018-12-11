@@ -1,2 +1,2 @@
-" Accepts W as w 
 :command W w
+:command Q q
