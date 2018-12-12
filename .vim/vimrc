@@ -15,3 +15,9 @@ source ~/dotfiles/.vim/commands.vim
 
 " Backup config
 source ~/dotfiles/.vim/backup.vim
+
+" Maps config
+source ~/dotfiles/.vim/maps.vim
+
+" Snippets import
+source ~/dotfiles/.vim/snippets.vim

@@ -21,12 +21,5 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
-" Delete trailing white space on save, useful for some filetypes ;)
-fun! CleanExtraSpaces()
-  let save_cursor = getpos(".")
-  let old_query = getreg('/')
-  silent! %s/\s\+$//e
-  call setpos('.', save_cursor)
-  call setreg('/', old_query)
-endfun
-
+" Delete trailing white space on save.
+" autocmd BufWritePre * %s/\s+$//e

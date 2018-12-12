@@ -36,3 +36,6 @@ set foldcolumn=1
 
 " Enter the directory you're currently editing
 set autochdir
+
+" Set default split settings
+set splitbelow splitright
