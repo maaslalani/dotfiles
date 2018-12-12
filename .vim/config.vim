@@ -34,8 +34,5 @@ set tm=500
 " Add a bit extra margin to the left
 set foldcolumn=1
 
-" Enter the directory you're currently editing
-set autochdir
-
 " Set default split settings
 set splitbelow splitright
