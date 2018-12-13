@@ -7,6 +7,7 @@ let g:netrw_banner = 0
 augroup ProjectDrawer
   autocmd!
   autocmd VimEnter * :Lexplore
+  autocmd VimEnter * :wincmd p  
 augroup END
 
 " Smart way to move between windows
