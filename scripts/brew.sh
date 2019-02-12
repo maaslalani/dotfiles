@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Check for Homebrew,
-# Install if we don't have it
+# Install homebrew if necessary
 if test ! $(which brew); then
   echo "Installing homebrew..."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -10,10 +9,10 @@ fi
 # Use the latest version of Homebrew
 brew update
 
-# Upgrade any existing formulae
+# Ugrade any installed binaries
 brew upgrade
 
-# Install useful binaries
+# Install binaries
 brew install git
 brew install node
 brew install bat

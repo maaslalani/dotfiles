@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/maaslalani'
+let g:netrw_dirhist_2='/Users/maaslalani/dotfiles'
+let g:netrw_dirhist_3='/Users/maaslalani/dotfiles/.git'
+let g:netrw_dirhist_4='/Users/maaslalani'
+let g:netrw_dirhist_5='/Users/maaslalani/dotfiles'
+let g:netrw_dirhist_6='/Users/maaslalani/dotfiles/scripts'
+let g:netrw_dirhist_7='/Users/maaslalani/dotfiles/.vim'
+let g:netrw_dirhist_8='/Users/maaslalani/dotfiles/git'

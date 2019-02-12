@@ -1,0 +1,24 @@
+# MacOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+
+# Netrw
+.netrwhist
+
+# Compiled Sources
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Databases
+*.log
+*.sql
+*.sqlite
+
+# Node
+node_modules
