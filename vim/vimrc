@@ -1,23 +1,25 @@
+DOTFILES=~/dotfiles/vim
+
 " Custom colour scheme
-source ~/dotfiles/.vim/colors.vim
+source $DOTFILES/colors.vim
 
 " Spacing and tabs configuration
-source ~/dotfiles/.vim/spacing.vim
+source $DOTFILES/spacing.vim
 
 " UI config
-source ~/dotfiles/.vim/config.vim
+source $DOTFILES/config.vim
 
 " Netrw config
-source ~/dotfiles/.vim/netrw.vim
+source $DOTFILES/netrw.vim
 
 " Commands config
-source ~/dotfiles/.vim/commands.vim
+source $DOTFILES/commands.vim
 
 " Backup config
-source ~/dotfiles/.vim/backup.vim
+source $DOTFILES/backup.vim
 
 " Maps config
-source ~/dotfiles/.vim/maps.vim
+source $DOTFILES/maps.vim
 
 " Snippets import
-source ~/dotfiles/.vim/snippets.vim
+source $DOTFILES/snippets.vim

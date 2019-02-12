@@ -1,4 +1,4 @@
-DOTFILES=~/dotfiles/.zsh
+DOTFILES=~/dotfiles/zsh
 
 # variables
 source $DOTFILES/variables.zsh
