@@ -5,7 +5,7 @@ filetype plugin indent on
 " Use spaces instead of tabs
 set expandtab
 
-" Be smart when using tabs ;)
+" Smarter tabs
 set smarttab
 
 " 1 tab == 4 spaces
@@ -22,4 +22,4 @@ set si "Smart indent
 set wrap "Wrap lines
 
 " Delete trailing white space on save.
-" autocmd BufWritePre * %s/\s+$//e
+autocmd BufWritePre * %s/\s+$//e
