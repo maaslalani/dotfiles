@@ -8,6 +8,9 @@ set expandtab
 " Smarter tabs
 set smarttab
 
+" Leave 5 lines under cursor
+set scrolloff=5
+
 " 1 tab == 4 spaces
 set tabstop=2
 set softtabstop=2
