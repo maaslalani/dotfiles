@@ -4,11 +4,11 @@ let g:netrw_liststyle = 3
 let g:netrw_banner = 0
 
 " Launch Netrw on launch
-augroup ProjectDrawer
-  autocmd!
-  autocmd VimEnter * :Lexplore
-  autocmd VimEnter * :wincmd p  
-augroup END
+" augroup ProjectDrawer
+"   autocmd!
+"   autocmd VimEnter * :Lexplore
+"   autocmd VimEnter * :wincmd p  
+" augroup END
 
 " Smart way to move between windows
 map <C-j> <C-W>j
