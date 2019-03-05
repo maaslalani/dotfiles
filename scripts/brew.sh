@@ -19,6 +19,8 @@ brew install bat
 brew install tldr
 brew install tree
 brew install vim
+brew install htop
+brew install tmux
 brew install heroku/brew/heroku
 
 # Install casks
