@@ -10,6 +10,9 @@ source ~/dotfiles/vim/config.vim
 " Netrw config
 source ~/dotfiles/vim/netrw.vim
 
+" Tabs config
+source ~/dotfiles/vim/tabs.vim
+
 " Commands config
 source ~/dotfiles/vim/commands.vim
 

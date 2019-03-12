@@ -1,2 +1,2 @@
 :command W w
-:command Q qa
+:command Q q
