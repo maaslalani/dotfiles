@@ -8,12 +8,15 @@ window:
   dynamic_padding: false
   decorations: full
   start_maximized: true
+
 scrolling:
   history: 10000
   multiplier: 3
   faux_multiplier: 3
   auto_scroll: false
-tabspaces: 8
+
+tabspaces: 4
+
 font:
   size: 15.0
   offset:
@@ -23,9 +26,13 @@ font:
     x: 0
     y: 0
   use_thin_strokes: true
+  
 render_timer: false
+
 persistent_logging: false
+
 draw_bold_text_with_bright_colors: true
+
 colors:
   primary:
     background: '0x2E3440'
@@ -48,26 +55,36 @@ colors:
     magenta: '0xB48EAD'
     cyan:    '0x8FBCBB'
     white:   '0xECEFF4'
+
 visual_bell:
   animation: EaseOutExpo
   duration: 0
   color: '0xffffff'
+
 background_opacity: 1.0
+
 mouse_bindings:
   - { mouse: Middle, action: PasteSelection }
+
 mouse:
   double_click: { threshold: 300 }
   triple_click: { threshold: 300 }
   hide_when_typing: false
   url:
     modifiers: None
+
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
   save_to_clipboard: false
+
 dynamic_title: true
+
 cursor:
   style: Block
   unfocused_hollow: true
+
 live_config_reload: true
+
 enable_experimental_conpty_backend: false
+
 alt_send_esc: true
