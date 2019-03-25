@@ -12,4 +12,4 @@ setw -g mode-keys vi
 set -g mouse on
 
 # Fix weird mac issues
-set -g default-command "reattach-to-user-namespace -l /usr/local/bin/zsh"
+set -g default-command 'reattach-to-user-namespace -l /usr/local/bin/zsh'

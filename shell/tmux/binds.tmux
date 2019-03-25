@@ -1,5 +1,5 @@
 # Apply changes with prefix-r
-bind r source-file ~/.tmux.conf \; display "Reloaded ~/.tmux.conf"
+bind r source-file ~/.tmux.conf \; display 'Reloaded ~/.tmux.conf'
 
 # Remap prefix from 'C-b' to 'C-a'
 unbind C-b
@@ -16,8 +16,8 @@ bind k select-pane -U
 bind l select-pane -R
 
 # Split windows using | and -
-bind \ split-window -h -c "#{pane_current_path}"
-bind - split-window -c "#{pane_current_path}"
+bind \ split-window -h -c '#{pane_current_path}'
+bind - split-window -c '#{pane_current_path}'
 
 # Sync tabs
 bind -n C-x setw synchronize-panes
