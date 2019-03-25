@@ -16,4 +16,4 @@ set -g status-right '  %H:%M %a #[fg=green,bg=black,nobold,nounderscore,noitalic
 
 # Set windows status
 setw -g window-status-format '#[fg=white,bg=black,nobold,nounderscore,noitalics]  #I #W  '
-setw -g window-status-current-format '#[fg=white,bg=blue]  #I #W  '
+setw -g window-status-current-format '#[fg=black,bg=magenta]  #I #W  '

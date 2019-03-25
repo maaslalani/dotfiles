@@ -3,8 +3,8 @@ window:
     columns: 0
     lines: 0
   padding:
-    x: 2
-    y: 2
+    x: 3
+    y: 0
   dynamic_padding: false
   decorations: full
   start_maximized: true
@@ -27,7 +27,7 @@ font:
   italic:
     family: Fira Mono
     style: Regular
-  size: 15.0
+  size: 16.0
   offset:
     x: 0
     y: 0
