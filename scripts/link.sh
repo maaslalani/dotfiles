@@ -13,4 +13,4 @@ ln -s ~/dotfiles/git/gitignore ~/.gitignore
 ln -s ~/dotfiles/shell/tmux.conf ~/.tmux.conf
 
 # .alacritty.yml -> dotfiles/alacritty/alacritty.yml
-ln -s ~/dotfiles/alacritty/alacritty.yml ~/.alacritty.yml
+ln -s ~/dotfiles/terminal/alacritty.yml ~/.alacritty.yml
