@@ -3,9 +3,9 @@ window:
     columns: 0
     lines: 0
   padding:
-    x: 3
+    x: 0
     y: 0
-  dynamic_padding: false
+  dynamic_padding: true
   decorations: full
   start_maximized: true
 
@@ -27,7 +27,7 @@ font:
   italic:
     family: Fira Mono
     style: Regular
-  size: 16.0
+  size: 15.0
   offset:
     x: 0
     y: 0
@@ -78,7 +78,7 @@ mouse_bindings:
 mouse:
   double_click: { threshold: 300 }
   triple_click: { threshold: 300 }
-  hide_when_typing: false
+  hide_when_typing: true
   url:
     modifiers: None
 
