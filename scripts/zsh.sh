@@ -26,9 +26,6 @@ git -C ~/.oh-my-zsh/custom/plugins clone https://github.com/zsh-users/zsh-autosu
 # Install powerlevel9k theme
 git -C ~/.oh-my-zsh/custom/themes clone https://github.com/bhilburn/powerlevel9k.git
 
-# Install fonts
-cp "Source Code Pro for Powerline.otf" ~/Library/Fonts
-
 # Copy iterm2 settings
 cp com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 

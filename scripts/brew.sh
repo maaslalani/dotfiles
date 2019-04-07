@@ -24,13 +24,13 @@ brew install tmux
 brew install heroku/brew/heroku
 
 # Install casks
-brew cask install iterm2
-brew cask install flux
+brew cask install alacritty
 brew cask install google-chrome
 brew cask install spotify
 brew cask install slack
 brew cask install docker
 brew cask install notion
+brew cask install caprine
 
 # Remove outdated versions from the cellar
 brew cleanup
