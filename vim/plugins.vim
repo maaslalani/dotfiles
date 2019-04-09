@@ -10,5 +10,5 @@ Plug 'takac/vim-hardtime'
 call plug#end()
 
 " Hardtime
-let g:hardtime_default_on=0
+let g:hardtime_default_on=1
 let g:hardtime_allow_different_key=1
