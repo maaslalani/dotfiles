@@ -14,6 +14,3 @@ alias tkss='tmux kill-session -t'
 alias ta='tmux attach -t'
 alias tls='tmux list-sessions'
 alias tn='tmux new-session -s'
-
-# Facebook Messenger CLI
-alias fbm='fb-messenger-cli'
