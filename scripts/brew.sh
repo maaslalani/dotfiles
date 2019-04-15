@@ -13,24 +13,7 @@ brew update
 brew upgrade
 
 # Install binaries
-brew install git
-brew install node
-brew install bat
-brew install tldr
-brew install tree
-brew install vim
-brew install htop
-brew install tmux
-brew install heroku/brew/heroku
-
-# Install casks
-brew cask install alacritty
-brew cask install google-chrome
-brew cask install spotify
-brew cask install slack
-brew cask install docker
-brew cask install notion
-brew cask install caprine
+brew bundle --file=~/dotfiles/scripts/Brewfile
 
 # Remove outdated versions from the cellar
 brew cleanup

@@ -1,0 +1,28 @@
+# taps
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "heroku/brew"
+
+# brews
+brew "vim"
+brew "tmux"
+brew "ripgrep"
+brew "ctags"
+brew "ruby"
+brew "node"
+brew "nvm"
+brew "git"
+brew "bat"
+brew "tldr"
+brew "tree"
+brew "htop"
+
+# casks
+cask "alacritty"
+cask "google-chrome"
+cask "spotify"
+cask "slack"
+cask "docker"
+cask "notion"
+cask "caprine"
