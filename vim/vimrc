@@ -1,6 +1,9 @@
 " Custom colour scheme
 source ~/dotfiles/vim/colors.vim
 
+" Plugins
+source ~/dotfiles/vim/plugins.vim
+
 " Spacing and tabs configuration
 source ~/dotfiles/vim/spacing.vim
 
@@ -24,6 +27,3 @@ source ~/dotfiles/vim/maps.vim
 
 " Snippets import
 source ~/dotfiles/vim/snippets.vim
-
-" Plugins
-source ~/dotfiles/vim/plugins.vim

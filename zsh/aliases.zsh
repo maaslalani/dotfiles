@@ -1,4 +1,4 @@
-# Git aliases
+# git aliases
 alias gs='git status '
 alias ga='git add '
 alias gb='git branch '
