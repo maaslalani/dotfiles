@@ -1,19 +1,19 @@
 #!/bin/bash
 
-# Install homebrew if necessary
+# install homebrew
 if test ! $(which brew); then
   echo "Installing homebrew..."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# Use the latest version of Homebrew
+# update to latest version
 brew update
 
-# Ugrade any installed binaries
+# upgrade any installed binaries
 brew upgrade
 
-# Install binaries
+# install binaries
 brew bundle --file=~/dotfiles/scripts/Brewfile
 
-# Remove outdated versions from the cellar
+# remove outdated binaries
 brew cleanup
