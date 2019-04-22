@@ -2,5 +2,8 @@
 nnoremap S :%s//g<Left><Left>
 
 " Ctrl-p to paste
-inoremap <C-p> <C-o>"+p
-nnoremap <C-p> "+p
+imap <C-p> <C-o>"+p
+nmap <C-p> "+p
+
+" Ctrl-y to yank
+vmap <C-y> "+y
