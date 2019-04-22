@@ -150,7 +150,7 @@ key_bindings:
   - { key: F12,                           chars: "\e[24~"                    }
   - { key: Back,                          chars: "\x7f"                      }
   - { key: Back,     mods: Alt,           chars: "\e\x7f"                    }
-  - { key: Back,     mods: Command,       chars: "\e2\e5\e\x7f"              }
+  - { key: Back,     mods: Command,       chars: "\x15"                      }
   - { key: Insert,                        chars: "\e[2~"                     }
   - { key: Delete,                        chars: "\e[3~"                     }
   - { key: W,        mods: Command,       chars: "\x01&"                     }
