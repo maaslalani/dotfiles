@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# .vim -> dotfiles/.vim
-ln -s ~/dotfiles/vim ~/.vim
+# link vim folder
+ln -sf ~/dotfiles/vim ~/.vim
 
-# .zshrc -> dotfiles/.zsh/zsrhc
-ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
+# link zshrc
+ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
 
-# .gitignore -> dotfiles/git/gitignore
-ln -s ~/dotfiles/git/gitignore ~/.gitignore
+# link global gitignore
+ln -sf ~/dotfiles/git/gitignore ~/.gitignore
 
-# .tmux.conf -> dotfiles/shell/tmux.conf
-ln -s ~/dotfiles/shell/tmux.conf ~/.tmux.conf
+# link tmux configuration
+ln -sf ~/dotfiles/shell/tmux.conf ~/.tmux.conf
 
-# .alacritty.yml -> dotfiles/alacritty/alacritty.yml
-ln -s ~/dotfiles/terminal/alacritty.yml ~/.alacritty.yml
+# link alacritty configuration
+ln -sf ~/dotfiles/terminal/alacritty.yml ~/.alacritty.yml
