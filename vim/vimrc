@@ -1,29 +1,29 @@
-" Custom colour scheme
+" custom colour scheme
 source ~/dotfiles/vim/colors.vim
 
-" Plugins
+" plugins
 source ~/dotfiles/vim/plugins.vim
 
-" Spacing and tabs configuration
+" spacing and tabs configuration
 source ~/dotfiles/vim/spacing.vim
 
-" UI config
+" config
 source ~/dotfiles/vim/config.vim
 
-" Netrw config
+" netrw config
 source ~/dotfiles/vim/netrw.vim
 
-" Tabs config
+" tabs config
 source ~/dotfiles/vim/tabs.vim
 
-" Commands config
+" commands config
 source ~/dotfiles/vim/commands.vim
 
-" Backup config
+" backup config
 source ~/dotfiles/vim/backup.vim
 
-" Maps config
+" maps config
 source ~/dotfiles/vim/maps.vim
 
-" Snippets import
+" snippets import
 source ~/dotfiles/vim/snippets.vim

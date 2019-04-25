@@ -10,6 +10,3 @@ setw -g mode-keys vi
 
 # Use mouse
 set -g mouse on
-
-# Fix weird mac issues
-set -g default-command 'reattach-to-user-namespace -l /usr/local/bin/zsh'
