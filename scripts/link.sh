@@ -10,7 +10,7 @@ ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -sf ~/dotfiles/git/gitignore ~/.gitignore
 
 # link tmux configuration
-ln -sf ~/dotfiles/shell/tmux.conf ~/.tmux.conf
+ln -sf ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
 
 # link alacritty configuration
 ln -sf ~/dotfiles/terminal/alacritty.yml ~/.alacritty.yml
