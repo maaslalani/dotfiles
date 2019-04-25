@@ -1,15 +1,13 @@
-DOTFILES=~/dotfiles/zsh
-
 # variables
-source $DOTFILES/variables.zsh
+source ~/dotfiles/zsh/variables.zsh
 
 # plugins
-source $DOTFILES/plugins.zsh
+source ~/dotfiles/zsh/plugins.zsh
 
 # aliases
-source $DOTFILES/aliases.zsh
+source ~/dotfiles/zsh/aliases.zsh
 
 # oh my zsh
-source $ZSH/oh-my-zsh.sh
+source ~/.oh-my-zsh/oh-my-zsh.sh
 
 [ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
