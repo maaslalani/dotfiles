@@ -8,7 +8,7 @@ set expandtab
 " Smarter tabs
 set smarttab
 
-" 1 tab == 4 spaces
+" 1 tab == 2 spaces
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
