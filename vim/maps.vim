@@ -14,3 +14,5 @@ vmap p "_dp
 let mapleader = " "
 
 map <Leader>l :set relativenumber!<CR>
+map <Leader>gd :Gdiff<CR>
+map <Leader>gs :Gstatus<CR>
