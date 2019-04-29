@@ -14,6 +14,8 @@ vmap p "_dp
 let mapleader = "\<Space>"
 
 nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q<CR>
+
 map <silent> <Leader>n :tabnext<CR>
 
 map <silent> <Leader>l :set relativenumber!<CR>
