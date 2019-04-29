@@ -23,6 +23,7 @@ map <silent> <Leader>so :source ~/dotfiles/vim/vimrc<CR>
 
 map <Leader>gd :Gdiff<CR>
 map <Leader>gs :Gstatus<CR>
+map <Leader>gc :Gcommit %<CR>
 
 vmap <Leader>y "+y
 vmap <Leader>d "+d
