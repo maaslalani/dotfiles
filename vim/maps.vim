@@ -8,3 +8,9 @@ nmap <C-p> "+p
 
 " Ctrl-y to yank
 vmap <C-y> "+y
+vmap p "_dp
+
+" Leader maps
+let mapleader = " "
+
+map <Leader>l :set relativenumber!<CR>
