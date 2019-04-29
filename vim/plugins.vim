@@ -5,3 +5,5 @@ Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-fugitive'
 
 call plug#end()
+
+set diffopt+=vertical
