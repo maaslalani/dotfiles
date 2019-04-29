@@ -11,7 +11,10 @@ vmap <C-y> "+y
 vmap p "_dp
 
 " Leader maps
-let mapleader = " "
+let mapleader = "\<Space>"
+
+nnoremap <Leader>w :w<CR>
+map <silent> <Leader>n :tabnext<CR>
 
 map <silent> <Leader>l :set relativenumber!<CR>
 map <silent> <Leader>h :set cursorline!<CR>
@@ -20,3 +23,10 @@ map <silent> <Leader>so :source ~/dotfiles/vim/vimrc<CR>
 
 map <Leader>gd :Gdiff<CR>
 map <Leader>gs :Gstatus<CR>
+
+vmap <Leader>y "+y
+vmap <Leader>d "+d
+nmap <Leader>p "+p
+nmap <Leader>P "+P
+vmap <Leader>p "+p
+vmap <Leader>P "+P
