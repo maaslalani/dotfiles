@@ -1,4 +1,4 @@
-" Replace all is aliased to S.
+" statusReplace all is aliased to S.
 nnoremap S :%s//g<Left><Left>
 vnoremap S :s//g<Left><Left>
 
