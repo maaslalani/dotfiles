@@ -13,9 +13,10 @@ vmap p "_dp
 " Leader maps
 let mapleader = " "
 
-map <Leader>l :set relativenumber!<CR>
+map <silent> <Leader>l :set relativenumber!<CR>
+map <silent> <Leader>h :set cursorline!<CR>
 
-map <Leader>so :source ~/dotfiles/vim/vimrc<CR>
+map <silent> <Leader>so :source ~/dotfiles/vim/vimrc<CR>
 
 map <Leader>gd :Gdiff<CR>
 map <Leader>gs :Gstatus<CR>
