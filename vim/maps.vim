@@ -1,4 +1,4 @@
-" statusReplace all is aliased to S.
+" Replace all is aliased to S.
 nnoremap S :%s//g<Left><Left>
 vnoremap S :s//g<Left><Left>
 
@@ -12,6 +12,7 @@ vmap p "_dp
 
 " Leader maps
 let mapleader = "\<Space>"
+map <Space> <Nop>
 
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
@@ -22,10 +23,14 @@ map <silent> <Leader>l :set relativenumber!<CR>
 map <silent> <Leader>h :set cursorline!<CR>
 
 map <silent> <Leader>so :source ~/dotfiles/vim/vimrc<CR>
+map <silent> <Leader>sp :set spell!<CR>
 
 map <Leader>gd :Gdiff<CR>
 map <Leader>gs :Gstatus<CR>
 map <Leader>gc :Gcommit %<CR>
+
+map <silent> <Leader>ao :ALEEnable<CR>:set signcolumn=yes<CR>
+map <silent> <Leader>ac :ALEDisable<CR>:set signcolumn=no<CR>
 
 vmap <Leader>y "+y
 vmap <Leader>d "+d
