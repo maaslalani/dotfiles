@@ -18,6 +18,7 @@ nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
 
 map <silent> <Leader>n :tabnext<CR>
+map <silent> <Leader>t :tabnew<CR>
 
 map <silent> <Leader>l :set relativenumber!<CR>
 map <silent> <Leader>h :set cursorline!<CR>
