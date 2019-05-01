@@ -4,7 +4,6 @@ vnoremap S :s//g<Left><Left>
 
 " Ctrl-p to paste
 imap <C-p> <C-o>"+p
-nmap <C-p> "+p
 
 " Ctrl-y to yank
 vmap <C-y> "+y
@@ -18,7 +17,10 @@ nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
 
 map <silent> <Leader>n :tabnext<CR>
-map <silent> <Leader>t :tabnew<CR>
+map <Leader>t :tabnew +Exp<CR>
+
+nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+nmap <silent> <C-j> <Plug>(ale_next_wrap)
 
 map <silent> <Leader>l :set relativenumber!<CR>
 map <silent> <Leader>h :set cursorline!<CR>
