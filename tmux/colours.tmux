@@ -2,6 +2,10 @@
 set -g default-terminal 'tmux-256color-italic'
 set -as terminal-overrides ',xterm*:Tc:sitm=\E[3m'
 
+# Change status colors
+set -g status-bg black
+set -g status-fg black
+
 # Change pane colors
 set -g pane-border-style 'fg=black,bg=default'
 set -g pane-border-style 'fg=black,bg=default'
