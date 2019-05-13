@@ -10,3 +10,6 @@ setw -g mode-keys vi
 
 # Use mouse
 set -g mouse on
+
+# Set escape time in vim to 0
+set -sg escape-time 0

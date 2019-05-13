@@ -1,40 +1,42 @@
-" Replace all is aliased to S.
+" replace all is aliased to S.
 nnoremap S :%s//g<Left><Left>
 vnoremap S :s//g<Left><Left>
 
-" Ctrl-y to yank
-vmap <C-y> "+y
+" yank and paste maps
+vmap <leader>y "+y
+nmap <leader>p "+p
+vmap <leader>p "+p
 vmap p "_dp
 
-" Leader maps
+" leader maps
 let mapleader = "\<Space>"
 map <Space> <Nop>
 
-nnoremap <Leader>w :w<CR>
-nnoremap <Leader>q :q<CR>
+" save and quit maps
+nnoremap <leader>w :w<CR>
+nnoremap <leader>q :q<CR>
 
-map <silent> <Leader>n :tabnext<CR>
-map <Leader>t :tabnew +Exp<CR>
+" tab maps
+map <leader>n :tabnext<CR>
+map <leader>t :tabnew +Exp<CR>
 
-nmap <silent> <C-k> <Plug>(ale_previous_wrap)
-nmap <silent> <C-j> <Plug>(ale_next_wrap)
+" toggle highlights and line numbers
+map <leader>l :set relativenumber!<CR>
+map <leader>h :set cursorline!<CR>
 
-map <silent> <Leader>l :set relativenumber!<CR>
-map <silent> <Leader>h :set cursorline!<CR>
+" spell check toggle 
+map <leader>sp :set spell!<CR>
 
-map <silent> <Leader>so :source ~/dotfiles/vim/vimrc<CR>
-map <silent> <Leader>sp :set spell!<CR>
+" git commands
+map <leader>gd :Gdiff<CR>
+map <leader>gs :Gstatus<CR>
+map <leader>gc :Gcommit %<CR>
 
-map <Leader>gd :Gdiff<CR>
-map <Leader>gs :Gstatus<CR>
-map <Leader>gc :Gcommit %<CR>
+" matching brackets
+map <leader>b %
 
-map <silent> <Leader>ao :ALEEnable<CR>:set signcolumn=yes<CR>
-map <silent> <Leader>ac :ALEDisable<CR>:set signcolumn=no<CR>
+" files explorer
+map <leader>e :Ex<CR>
 
-vmap <Leader>y "+y
-vmap <Leader>d "+d
-nmap <Leader>p "+p
-nmap <Leader>P "+P
-vmap <Leader>p "+p
-vmap <Leader>P "+P
+" fzf map
+map <leader>f :Files<CR>
