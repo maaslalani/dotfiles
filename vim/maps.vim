@@ -30,8 +30,8 @@ map <leader>h :set cursorline!<CR>
 map <leader>sp :set spell!<CR>
 
 " ale maps
-map <silent><leader>ao :ALEEnable<CR>:set signcolumn=yes<CR>
-map <silent><leader>ac :ALEDisable<CR>:set signcolumn=no<CR>
+map <silent><leader>ao :ALEEnable\|set signcolumn=yes<CR>
+map <silent><leader>ac :ALEDisable\|set signcolumn=no<CR>
 
 " source vimrc
 map <leader>so :source ~/dotfiles/vim/vimrc<CR>
