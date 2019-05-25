@@ -4,9 +4,9 @@ vnoremap S :s//g<Left><Left>
 
 " yank and paste maps
 vmap <leader>y "+y
+map  <leader>p "+p
 nmap <leader>p "+p
 vmap <leader>p "+p
-vmap p "_dp
 
 " leader maps
 let mapleader = "\<Space>"
@@ -18,7 +18,6 @@ nnoremap <leader>q :q<CR>
 
 " tab maps
 map <leader>t :tabnew +Exp<CR>
-map <leader>n :tabnext<CR>
 
 " toggle relative line numbers
 map <leader>l :set relativenumber!<CR>
