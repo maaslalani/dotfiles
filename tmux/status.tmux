@@ -2,9 +2,6 @@
 set -g status-position bottom
 set -g status-justify right
 
-# Dim status bar
-set -g status-attr bright
-
 # Set lengths
 set -g status-right-length 100
 set -g status-left-length 100

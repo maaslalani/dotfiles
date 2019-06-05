@@ -7,6 +7,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-fugitive'
 Plug 'w0rp/ale'
+Plug 'tpope/vim-rails'
 
 call plug#end()
 
