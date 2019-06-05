@@ -1,3 +1,7 @@
+" leader maps
+let mapleader = "\<Space>"
+map <Space> <Nop>
+
 " replace all is aliased to S.
 nnoremap S :%s//g<Left><Left>
 vnoremap S :s//g<Left><Left>
@@ -7,10 +11,6 @@ vmap <leader>y "+y
 map  <leader>p "+p
 nmap <leader>p "+p
 vmap <leader>p "+p
-
-" leader maps
-let mapleader = "\<Space>"
-map <Space> <Nop>
 
 " save and quit maps
 nnoremap <leader>w :w<CR>
@@ -40,11 +40,8 @@ map <leader>gd :Gdiff<CR>
 map <leader>gs :Gstatus<CR>
 map <leader>gc :Gcommit %<CR>
 
-" matching brackets
-map <leader>b %
-
 " files explorer
-map <leader>e :Ex<CR>
+map <leader>e :Exp<CR>
 
 " fzf map
 map <leader>f :Files<CR>
