@@ -184,6 +184,7 @@ formatting.
 * Haskell
   * [brittany](https://github.com/lspitzner/brittany)
   * [cabal-ghc](https://www.haskell.org/cabal/)
+  * [floskell](https://github.com/ennocramer/floskell)
   * [ghc](https://www.haskell.org/ghc/)
   * [ghc-mod](https://github.com/DanielG/ghc-mod)
   * [hdevtools](https://hackage.haskell.org/package/hdevtools)
@@ -244,6 +245,7 @@ formatting.
   * [lacheck](https://www.ctan.org/pkg/lacheck)
   * [proselint](http://proselint.com/)
   * [redpen](http://redpen.cc/)
+  * [texlab](https://texlab.netlify.com) ([Rust rewrite](https://github.com/latex-lsp/texlab/tree/rust))
   * [textlint](https://textlint.github.io/)
   * [vale](https://github.com/ValeLint/vale)
   * [write-good](https://github.com/btford/write-good)
@@ -301,6 +303,7 @@ formatting.
 * OCaml
   * [merlin](https://github.com/the-lambda-church/merlin) see `:help ale-ocaml-merlin` for configuration instructions
   * [ocamlformat](https://github.com/ocaml-ppx/ocamlformat)
+  * [ocp-indent](https://github.com/OCamlPro/ocp-indent)
   * [ols](https://github.com/freebroccolo/ocaml-language-server)
 * Pawn
   * [uncrustify](https://github.com/uncrustify/uncrustify)
@@ -421,6 +424,7 @@ formatting.
   * [solhint](https://github.com/protofire/solhint)
   * [solium](https://github.com/duaraghav8/Solium)
 * SQL
+  * [pgformatter](https://github.com/darold/pgFormatter)
   * [sqlfmt](https://github.com/jackc/sqlfmt)
   * [sqlint](https://github.com/purcell/sqlint)
 * Stylus

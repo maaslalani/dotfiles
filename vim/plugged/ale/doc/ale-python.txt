@@ -29,7 +29,7 @@ ALE will look for configuration files with the following filenames. >
   tox.ini
   mypy.ini
   pycodestyle.cfg
-  flake8.cfg
+  .flake8
   .flake8rc
   pylama.ini
   pylintrc
@@ -579,6 +579,14 @@ g:ale_python_pylint_auto_pipenv               *g:ale_python_pylint_auto_pipenv*
   Detect whether the file is inside a pipenv, and set the executable to `pipenv`
   if true. This is overridden by a manually-set executable.
 
+
+g:ale_python_pylint_use_msg_id                 *g:ale_python_pylint_use_msg_id*
+                                               *b:ale_python_pylint_use_msg_id*
+  Type: |Number|
+  Default: `0`
+
+  Use message for output (e.g. I0011) instead of symbolic name of the message
+  (e.g. locally-disabled).
 
 ===============================================================================
 pyls                                                          *ale-python-pyls*

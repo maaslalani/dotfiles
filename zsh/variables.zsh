@@ -1,6 +1,6 @@
 # Variables
-ZSH="/Users/maaslalani/.oh-my-zsh"
+ZSH="/Users/maas/.oh-my-zsh"
 ZSH_THEME="refined"
-DEFAULT_USER="maaslalani"
+DEFAULT_USER="maas"
 
-GOOGLE_APPLICATION_CREDENTIALS="/Users/maaslalani/service_account.json"
+GOOGLE_APPLICATION_CREDENTIALS="/Users/maas/service_account.json"

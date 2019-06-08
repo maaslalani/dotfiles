@@ -190,6 +190,11 @@ let s:default_registry = {
 \       'suggested_filetypes': ['hack'],
 \       'description': 'Fix Hack files with hackfmt.',
 \   },
+\   'floskell': {
+\       'function': 'ale#fixers#floskell#Fix',
+\       'suggested_filetypes': ['haskell'],
+\       'description': 'Fix Haskell files with floskell.',
+\   },
 \   'hfmt': {
 \       'function': 'ale#fixers#hfmt#Fix',
 \       'suggested_filetypes': ['haskell'],
@@ -214,6 +219,11 @@ let s:default_registry = {
 \       'function': 'ale#fixers#ocamlformat#Fix',
 \       'suggested_filetypes': ['ocaml'],
 \       'description': 'Fix OCaml files with ocamlformat.',
+\   },
+\   'ocp-indent': {
+\       'function': 'ale#fixers#ocp_indent#Fix',
+\       'suggested_filetypes': ['ocaml'],
+\       'description': 'Fix OCaml files with ocp-indent.',
 \   },
 \   'refmt': {
 \       'function': 'ale#fixers#refmt#Fix',
@@ -252,8 +262,8 @@ let s:default_registry = {
 \   },
 \   'xo': {
 \       'function': 'ale#fixers#xo#Fix',
-\       'suggested_filetypes': ['javascript'],
-\       'description': 'Fix JavaScript files using xo --fix.',
+\       'suggested_filetypes': ['javascript', 'typescript'],
+\       'description': 'Fix JavaScript/TypeScript files using xo --fix.',
 \   },
 \   'qmlfmt': {
 \       'function': 'ale#fixers#qmlfmt#Fix',
@@ -294,6 +304,11 @@ let s:default_registry = {
 \       'function': 'ale#fixers#latexindent#Fix',
 \       'suggested_filetypes': ['tex'],
 \       'description' : 'Indent code within environments, commands, after headings and within special code blocks.',
+\   },
+\   'pgformatter': {
+\       'function': 'ale#fixers#pgformatter#Fix',
+\       'suggested_filetypes': ['sql'],
+\       'description': 'A PostgreSQL SQL syntax beautifier',
 \   },
 \}
 
