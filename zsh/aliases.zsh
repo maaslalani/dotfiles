@@ -14,3 +14,6 @@ alias tkss='tmux kill-session -t'
 alias ta='tmux attach -t'
 alias tls='tmux list-sessions'
 alias tn='tmux new-session -s'
+
+# mtmr
+alias mtmr='vim ~/Library/Application\ Support/MTMR/items.json'
