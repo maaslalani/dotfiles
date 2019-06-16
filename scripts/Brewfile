@@ -18,6 +18,7 @@ brew "bat"
 brew "tldr"
 brew "tree"
 brew "htop"
+brew "vifm"
 
 # casks
 cask "alacritty"
