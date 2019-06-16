@@ -45,3 +45,5 @@ map <leader>e :Exp<CR>
 
 " fzf map
 map <leader>f :Files<CR>
+map <leader>g :GFiles<CR>
+map <leader>r :Rg<CR>
