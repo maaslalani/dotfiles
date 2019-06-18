@@ -34,10 +34,10 @@ font:
     #style: Regular
   #bold:
     #family: Fira Mono
-    #style: Regular
+    #style: Bold
   #italic:
     #family: Fira Mono
-    #style: Regular
+    #style: Italic
   size: 15.0
 
   offset:
