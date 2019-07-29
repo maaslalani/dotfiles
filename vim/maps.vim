@@ -2,6 +2,9 @@
 let mapleader = "\<Space>"
 map <Space> <Nop>
 
+" Q to quit
+map Q :q<CR>
+
 " replace all is aliased to S.
 nnoremap S :%s//g<Left><Left>
 vnoremap S :s//g<Left><Left>

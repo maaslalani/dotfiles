@@ -7,3 +7,5 @@
 :command Qw wq
 
 :command E Exp
+
+:command Af ALEFix

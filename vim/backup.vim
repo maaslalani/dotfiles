@@ -2,3 +2,7 @@
 set nobackup
 set nowb
 set noswapfile
+
+" Maintain undo history between sessions
+set undodir=~/.undo
+set undofile

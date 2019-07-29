@@ -10,4 +10,5 @@ source ~/dotfiles/zsh/aliases.zsh
 # oh my zsh
 source ~/.oh-my-zsh/oh-my-zsh.sh
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
