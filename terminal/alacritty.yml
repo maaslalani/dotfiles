@@ -15,7 +15,6 @@ window:
   decorations: full
 
   startup_mode: Fullscreen
-  start_maximized: true
 
   #title: Alacritty
   #class: Alacritty

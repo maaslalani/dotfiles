@@ -1,4 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/maas/dotfiles'
-let g:netrw_dirhist_2='/Users/maas'
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/maas/dotfiles/vim'
+let g:netrw_dirhist_6='/Users/maas/dotfiles'
+let g:netrw_dirhist_5='/Users/maas/dotfiles/zsh'
+let g:netrw_dirhist_4='/Users/maas/dotfiles'
+let g:netrw_dirhist_3='/Users/maas/dotfiles/terminal'
+let g:netrw_dirhist_2='/Users/maas/dotfiles'
+let g:netrw_dirhist_1='/Users/maas/dotfiles/terminal'
+let g:netrw_dirhist_0='/Users/maas/dotfiles'
+let g:netrw_dirhist_9='/Users/maas'
+let g:netrw_dirhist_8='/Users/maas/src/github.com/darshil/just-focus'

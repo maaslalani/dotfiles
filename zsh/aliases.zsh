@@ -1,11 +1,10 @@
 # git aliases
-alias gs='git status '
-alias ga='git add '
-alias gb='git branch '
+alias gs='git status'
+alias ga='git add'
+alias gb='git branch'
 alias gc='git commit'
 alias gd='git diff'
 alias gd~='git diff HEAD~1'
-alias go='git checkout '
 alias gk='gitk --all&'
 alias gx='gitx --all'
 
@@ -16,5 +15,5 @@ alias ta='tmux attach -t'
 alias tls='tmux list-sessions'
 alias tn='tmux new-session -s'
 
-# mtmr
-alias mtmr='vim ~/Library/Application\ Support/MTMR/items.json'
+# misc
+alias weather='curl http://v2.wttr.in'
