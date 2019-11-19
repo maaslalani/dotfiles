@@ -10,7 +10,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 Plug 'janko/vim-test'
 Plug 'w0rp/ale'
-Plug 'zxqfl/tabnine-vim'
 
 call plug#end()
 
