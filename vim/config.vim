@@ -16,7 +16,7 @@ set ignorecase
 " When searching try to be smart about cases
 set smartcase
 
-" Don't redraw while executing macros (good performance config)
+" Don't redraw while executing macros
 set lazyredraw
 
 " For regular expressions turn magic on

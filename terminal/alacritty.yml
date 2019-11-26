@@ -14,7 +14,7 @@ window:
   dynamic_padding: false
   decorations: full
 
-  startup_mode: Fullscreen
+  startup_mode: Windowed
 
   #title: Alacritty
   #class: Alacritty
@@ -25,7 +25,7 @@ scrolling:
   faux_multiplier: 3
   auto_scroll: false
 
-tabspaces: 4
+tabspaces: 2
 
 font:
   #normal:
@@ -87,16 +87,6 @@ colors:
     cyan:    '0x8FBCBB'
     white:   '0xECEFF4'
 
-  #dim:
-  #  black:   '0x000000'
-  #  red:     '0x8c3336'
-  #  green:   '0x7a8530'
-  #  yellow:  '0x97822e'
-  #  blue:    '0x506d8f'
-  #  magenta: '0x80638e'
-  #  cyan:    '0x497e7a'
-  #  white:   '0x9a9a9a'
-
   indexed_colors: []
 
 visual_bell:
@@ -125,7 +115,7 @@ dynamic_title: true
 
 cursor:
   style: Block
-  unfocused_hollow: true
+  unfocused_hollow: false
 
 live_config_reload: true
 
