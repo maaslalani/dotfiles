@@ -37,7 +37,7 @@ font:
   #italic:
     #family: Fira Mono
     #style: Italic
-  size: 15.0
+  size: 16.0
 
   offset:
     x: 0
