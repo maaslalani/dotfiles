@@ -14,8 +14,7 @@ window:
   dynamic_padding: false
   decorations: full
 
-  startup_mode: Fullscreen
-  start_maximized: true
+  startup_mode: Maximized
 
   #title: Alacritty
   #class: Alacritty
