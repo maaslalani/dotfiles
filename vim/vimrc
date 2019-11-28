@@ -10,8 +10,8 @@ source ~/dotfiles/vim/spacing.vim
 " config
 source ~/dotfiles/vim/config.vim
 
-" netrw config
-source ~/dotfiles/vim/netrw.vim
+" windows config
+source ~/dotfiles/vim/windows.vim
 
 " tabs config
 source ~/dotfiles/vim/tabs.vim

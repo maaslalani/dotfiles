@@ -9,3 +9,4 @@
 :command E Exp
 
 :command Af ALEFix
+:command Tf TestFile

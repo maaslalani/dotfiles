@@ -1,11 +1,6 @@
 # Windows should be numbered from one like panes
 set -g base-index 1
 
-# Automatically set window names
-set-window-option -g automatic-rename on
-set-option -g set-titles on
-set-option -g default-command "reattach-to-user-namespace -l zsh"
-
 # Vim-like movement
 setw -g mode-keys vi
 
