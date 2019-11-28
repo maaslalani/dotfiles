@@ -10,10 +10,18 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 Plug 'janko/vim-test'
 Plug 'w0rp/ale'
+Plug 'zxqfl/tabnine-vim'
 
 call plug#end()
 
 set diffopt+=vertical
+
+imap <C-,>, <C-y>,
+imap <C-,><C-,> <C-y>,
+vmap <C-,>, <C-y>,
+vmap <C-,><C-,> <C-y>,
+map <C-,>, <C-y>,
+map <C-,><C-,> <C-y>,
 
 let g:ale_sign_error = '*'
 let g:ale_sign_warning = '~'
