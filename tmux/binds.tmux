@@ -16,7 +16,7 @@ bind k select-pane -U
 bind l select-pane -R
 
 # Split windows using | and -
-bind \ split-window -h -c '#{pane_current_path}'
+bind \\ split-window -h -c '#{pane_current_path}'
 bind - split-window -c '#{pane_current_path}'
 
 # Sync tabs
