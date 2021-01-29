@@ -3,14 +3,12 @@ set nocompatible
 
 filetype indent plugin on | syn on
 
-
 autocmd BufEnter *.graphql set ft=graphql
 autocmd BufEnter *.lock set ft=json
 autocmd BufEnter *.nix set ft=nix
 autocmd BufWrite *.go lua vim.lsp.buf.formatting()
 autocmd CmdLineEnter : set nosmartcase
 autocmd CmdLineLeave : set smartcase
-autocmd TermOpen * setlocal nonumber signcolumn=no
 set backspace=indent,eol,start
 set cmdheight=1
 set completeopt=menuone,noinsert,noselect
@@ -36,7 +34,6 @@ set autoindent
 set autoread
 set autowrite
 set nobackup
-set nocompatible
 set cursorline
 set noerrorbells
 set expandtab
@@ -68,7 +65,6 @@ let diagnostic_auto_popup_while_jump=0
 let diagnostic_enable_underline=1
 let diagnostic_enable_virtual_text=1
 let diagnostic_insert_delay=0
-let loaded_netrw=0
 
 :command E Dirvish
 :command Mksession mksession! $VIM_SESSION_PATH | qa
@@ -122,5 +118,3 @@ vmap < <gv
 vmap > >gv
 vmap so :sort <bar>w<bar>e<CR>
 vmap ss :s//g<Left><Left>
-
-iabbrev iferr if err != nil {<CR><CR>}<Up><Tab>
