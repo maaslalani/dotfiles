@@ -3,7 +3,11 @@ mkdir -p ~/.config/nvim
 ln -sf ~/dotfiles/vimrc ~/.vimrc
 ln -sf ~/dotfiles/vimrc ~/.config/nvim/init.vim
 ln -sf ~/dotfiles/zshrc ~/.zshrc
+ln -sf ~/dotfiles/tmux.conf ~/.tmux.conf
 
 if [ $SPIN ]; then
   sudo apt-get install -y neovim
+  sudo apt-get install -y fd
+  sudo apt-get install -y ripgrep
+  sudo apt-get install -y jq
 fi
