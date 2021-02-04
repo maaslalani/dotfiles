@@ -16,6 +16,7 @@ export PASSWORD_STORE_DIR="$HOME/.config/pass"
 export PATH="$HOME/.cargo/bin:$HOME/.config/go/bin:$HOME/.nix-profile/bin:$PATH"
 export PROMPT="%F{blue}%2~%f %F{magenta}\$GIT_BRANCH%f %F{red}\$GIT_STATUS%f 
 %(?.%F{green}❯%f.%F{red}❯%f) "
+[[ $SPIN ]] && export RPROMPT="%F{blue}[spin]"
 export TERM="xterm-256color"
 export VIM_SESSION_PATH="/tmp/session.vim"
 
@@ -32,6 +33,7 @@ setopt autocd
 
 setopt prompt_subst
 
+bindkey -v
 bindkey '^P' up-history
 bindkey '^N' down-history
 bindkey '^?' backward-delete-char
@@ -40,10 +42,8 @@ bindkey '^[[Z' reverse-menu-complete
 precmd() {
   if [ $(git rev-parse --is-inside-work-tree 2>/dev/null) ]; then
     GIT_BRANCH="($(git branch --show-current))"
-    GIT_STATUS=$(git status --porcelain | cut -c2 | tr -d ' \n')
   else
     unset GIT_BRANCH
-    unset GIT_STATUS
   fi
 }
 
@@ -92,8 +92,7 @@ alias gsw='git switch'
 alias gswm='git switch master'
 alias hmg='nix build --out-link ~/.config/nixpkgs/result --impure --experimental-features '\''nix-command flakes'\'' '\''/Users/maas/_#home'\'''
 alias hms='nix-shell -p nixUnstable --command "nix build --out-link ~/.config/nixpkgs/result --impure --experimental-features '\''nix-command flakes'\'' '\''/Users/maas/_#home'\''" && ~/.config/nixpkgs/result/activate'
-alias ls='exa'
-alias lsa='exa -Fla'
+alias lsa='ls -lah'
 alias md='mkdir'
 alias ncg='nix-collect-garbage'
 alias scratch='FILE=`mktemp /tmp/scratch.XXXXXX`; vim $FILE +startinsert && pbcopy < $FILE; rm $FILE'
