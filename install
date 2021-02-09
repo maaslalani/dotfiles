@@ -11,5 +11,3 @@ if [ $SPIN ]; then
   sudo apt-get install -y ripgrep
   sudo apt-get install -y jq
 fi
-
-sleep 80
