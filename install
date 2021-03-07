@@ -1,6 +1,11 @@
 #!/bin/sh
 
-git clone https://github.com/maaslalani/_.git
+git clone https://github.com/maaslalani/_.git ~/_
+cd ~/_
+
 mkdir -p ~/.config/nix && echo "sandbox = false" > ~/.config/nix/nix.conf
 curl -L https://nixos.org/nix/install | sh
 . ~/.nix-profile/etc/profile.d/nix.sh
+
+nix-shell -p nixUnstable --command "nix build --impure --experimental-features 'nix-command flakes' '.#spin'"
+./result/activate
