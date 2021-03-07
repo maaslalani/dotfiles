@@ -1,13 +1,6 @@
-mkdir -p ~/.config/nvim
+#!/bin/sh
 
-ln -sf ~/dotfiles/vimrc ~/.vimrc
-ln -sf ~/dotfiles/vimrc ~/.config/nvim/init.vim
-ln -sf ~/dotfiles/zshrc ~/.zshrc
-ln -sf ~/dotfiles/tmux.conf ~/.tmux.conf
-
-if [ $SPIN ]; then
-  sudo apt-get install -y neovim
-  sudo apt-get install -y fd
-  sudo apt-get install -y ripgrep
-  sudo apt-get install -y jq
-fi
+git clone https://github.com/maaslalani/_.git
+mkdir -p ~/.config/nix && echo "sandbox = false" > ~/.config/nix/nix.conf
+curl -L https://nixos.org/nix/install | sh
+. ~/.nix-profile/etc/profile.d/nix.sh
