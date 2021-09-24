@@ -1,7 +1,10 @@
 #!/bin/sh
 
-git clone https://github.com/maaslalani/_.git ~/_
+if [ ! -d ~/_ ]; then
+  git clone https://github.com/maaslalani/_.git ~/_
+fi
+
 cd ~/_
 mkdir -p ~/.config/nix && echo "sandbox = false" > ~/.config/nix/nix.conf
-nix-shell -p nixUnstable --command "nix build --out-link ~/.config/nix/result --impure --experimental-features 'nix-command flakes' '.#spin'"
-~/.config/nix/result/activate
+nix-shell -p nixUnstable --command "nix build --out-link result --impure --experimental-features 'nix-command flakes' '.#spin'"
+./result/activate
