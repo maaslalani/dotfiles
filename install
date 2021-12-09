@@ -6,5 +6,6 @@ fi
 
 cd ~/_
 mkdir -p ~/.config/nix && echo "sandbox = false" > ~/.config/nix/nix.conf
+nix-shell -p nixUnstable --command "nix --experimental-features 'nix-command flakes' flake lock --update-input fnl"
 nix-shell -p nixUnstable --command "nix build --out-link result --impure --experimental-features 'nix-command flakes' '.#spin'"
 ./result/activate
