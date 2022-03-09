@@ -1,5 +1,7 @@
 #!/bin/sh
 
+exit 0
+
 if [ ! -d ~/_ ]; then
   git clone https://github.com/maaslalani/_.git ~/_
 fi
